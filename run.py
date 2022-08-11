@@ -16,9 +16,6 @@
 # * limitations under the License.
 # */
 
-__author__ = "Marganne Louis <louis.marganne@student.uliege.be>"
-__contributors__ = ["Navdeep Kumar <nkumar@uliege.be>"]
-
 
 from cytomine.models import ImageInstanceCollection, Job, AttachedFileCollection, Annotation, AnnotationCollection, JobData, TermCollection, Property, AbstractImage
 from cytomine import CytomineJob
