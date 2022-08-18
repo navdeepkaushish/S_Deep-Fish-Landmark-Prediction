@@ -6,5 +6,6 @@ RUN mkdir -p /app
 ADD descriptor.json /app/descriptor.json
 ADD run.py /app/run.py
 ADD utils.py /app/utils.py
+ADD models/ /models/
 
 ENTRYPOINT ["python", "/app/run.py"]

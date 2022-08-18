@@ -1,12 +1,12 @@
 {
     "name": "Deep-Butterflies-Pred",
     "container-image": {
-        "image": "mytiix/s_deep-butterflies-pred",
+        "image": "navdeepkaushish/s_deep-fish-landmark-prediction",
         "type": "singularity"
     },
-    "description": "Prediction phase of the Deep-Butterflies Deep Learning approach",
+    "description": "Prediction phase of the Deep-fish Deep Learning approach",
     "schema-version": "cytomine-0.1",
-    "command-line": "python run.py [CYTOMINE_HOST] [CYTOMINE_PUBLIC_KEY] [CYTOMINE_PRIVATE_KEY] [CYTOMINE_ID_PROJECT] [CYTOMINE_ID_SOFTWARE] [IMAGES_TO_PREDICT] [MODEL_TO_USE]",
+    "command-line": "python run.py [CYTOMINE_HOST] [CYTOMINE_PUBLIC_KEY] [CYTOMINE_PRIVATE_KEY] [CYTOMINE_ID_PROJECT] [CYTOMINE_ID_SOFTWARE] [IMAGES_TO_PREDICT] [FISH] [N_LANDMARKS] [MODEL_SIZE]",
     "inputs": [
         {
         	"id": "cytomine_host",
@@ -66,16 +66,34 @@
             "uri-sort-attribute": "instanceFilename"
         },
         {
-            "id": "model_to_use",
+            "id": "fish",
             "value-key": "[@ID]",
             "command-line-flag": "--@id",
             "name": "CytomineJob ID of the model(s) to use",
             "set-by-server": false,
             "optional": false,
-            "type": "ListDomain",
-	    	"uri": "/api/job.json?project=$currentProject$",
-	    	"uri-print-attribute": "id",
-	    	"uri-sort-attribute": "id"
+            "type": "String"
+	    
+        },
+{
+            "id": "n_landmarks",
+            "value-key": "[@ID]",
+            "command-line-flag": "--@id",
+            "name": "Number of landmarks",
+            "set-by-server": false,
+            "optional": false,
+            "type": "Number"
+	    
+        },
+{
+            "id": "model_size",
+            "value-key": "[@ID]",
+            "command-line-flag": "--@id",
+            "name": "Number of landmarks",
+            "set-by-server": false,
+            "optional": false,
+            "type": "Number"
+	    
         }
     ]
 }
