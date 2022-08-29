@@ -1,7 +1,7 @@
 {
-    "name": "Deep-Butterflies-Pred",
+    "name": "Deep-Fish-Landmark-Prediction",
     "container-image": {
-        "image": "navdeepkaushish/s_deep-fish-landmark-prediction",
+        "image": "navdeepkaushish/deep-fish-landmark-prediction",
         "type": "singularity"
     },
     "description": "Prediction phase of the Deep-fish Deep Learning approach",
