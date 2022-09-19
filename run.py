@@ -105,7 +105,7 @@ def main(argv):
 		cj.job.update(progress=80, statusComment='Predicting landmarks...')
 
 		test_images = sorted(glob.glob(rescaled_images_path+'*.png'))
-		batch_size = 2
+		batch_size = 1
 		N = cj.parameters.n_landmarks
 
 		pred_landmarks_list = []
