@@ -98,7 +98,7 @@ def main(argv):
 
 
 			else:
-				img = cv.imread(images[i], cv.IMREAD_UNCHANGED)
+				img = cv.imread(imgs_path[i], cv.IMREAD_UNCHANGED)
 
 				re_img, _ = rescale_pad_img(img, None, model_size) #rescaled and pad to model size (256 in our case)
 				re_img = re_img.astype(np.float32)
