@@ -67,7 +67,7 @@ def main(argv):
 
 		# Load model depending upon the fish_type parameter
 		if cj.parameters.fish_type == "seabream":
-			model = load_model('/models/seabream_' + cj.parameters.model_to_use + '.hdf5')
+			model = load_model('d:/BioMedAqu/Projects/S_Deep-Fish-Landmark-Prediction/models/seabream_' + cj.parameters.model_to_use + '.hdf5')
 		elif cj.parameters.fish_type == "medaka":
 			model = load_model('/models/medaka_' + cj.parameters.model_to_use + '.hdf5')
 		elif cj.parameters.fish_type == "zebrafish":
