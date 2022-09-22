@@ -22,7 +22,6 @@ import cv2 as cv
 
 from utils import *
 
-import joblib
 import glob
 import sys
 import os
