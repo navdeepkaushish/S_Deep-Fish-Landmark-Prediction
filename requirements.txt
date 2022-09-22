@@ -2,3 +2,4 @@ tensorflow==2.7
 numpy==1.21.4
 opencv-python-headless==4.6.0.66
 albumentations==1.0.3
+h5py==3.7.0
