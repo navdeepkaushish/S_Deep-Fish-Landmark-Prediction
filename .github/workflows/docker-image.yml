@@ -14,6 +14,11 @@ jobs:
         
       - name: Setup Python
         uses: actions/setup-python@v2
+
+      - name: Install dependency
+        run: |
+            python -m pip install --upgrade pip
+            pip install requests
       
       - name: Download models
         run: |
