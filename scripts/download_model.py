@@ -3,7 +3,7 @@ import requests
 import sys
 
 if __name__ == "__main__":
-    dir_path = '/models/'
+    dir_path = 'models/'
     r = requests.get('https://sandbox.zenodo.org/api/deposit/depositions', params={'access_token': sys.argv[1]})
     for file in r.json()[0]['files']:
         print(file['filename'])
