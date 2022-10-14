@@ -98,7 +98,9 @@ def main(argv):
 
 			else:
 				img = cv.imread(imgs_path[i], cv.IMREAD_UNCHANGED)
-
+				filename = os.path.basename(imgs_path[i])
+				fname, fext = os.path.splitext(filename)
+				fname = int(fname)
 				re_img, _ = rescale_pad_img(img, None, model_size) #rescaled and pad to model size (256 in our case)
 				re_img = re_img.astype(np.float32)
 				re_img = tf.cast(re_img, tf.float32) / 255.0 #noramalize
