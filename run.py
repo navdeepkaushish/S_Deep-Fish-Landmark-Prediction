@@ -5,8 +5,7 @@ Created on Wed Aug 17 10:52:45 2022
 @author: Navdeep Kumar
 """
 
-__author__ = "Marganne Louis <louis.marganne@student.uliege.be>"
-__contributors__ = ["Navdeep Kumar <nkumar@uliege.be>"]
+__author__ = "Navdeep Kumar <nkumar@uliege.be>"
 
 from cytomine.models import ImageInstanceCollection, Job, AttachedFileCollection, Annotation, AnnotationCollection, \
 	JobData, TermCollection, Property, AbstractImage
@@ -129,3 +128,4 @@ def main(argv):
 
 if __name__ == '__main__':
 	main(sys.argv[1:])
+
