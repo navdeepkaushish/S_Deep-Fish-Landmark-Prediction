@@ -11,15 +11,15 @@ This paper empirically evaluates deep learning methods for anatomical landmark d
 - Microscopy Images of Medaka Fish (Another model fish in Biomedical research)
 - Radiography (X-Rays) Images of Gilthead Seabream (Sparus aurata) (Aquaculture fish species)
 
-** Methodology:**
+**Methodology:**
 
 - Direct Coordinate Regression
 - Heatmap based Regression (Gaussian and Exponential Heatmaps)
 
-** CNN Architectures:**
+**CNN Architectures:**
 - UNet, HRNet, DeepLab (with transfer learning), FCN-8
 
-<p align="center"> <img src="Test_Images/hm_all.jpg" width="600"><br> <em>Figure 1: Example heatmap prediction</em> </p> <p align="center"> <img src="images/landmarks_overlay.png" width="600"><br> <em>Figure 2: Landmark predictions vs. ground truth</em> </p>
+<p align="center"> <img src="Test_Images/hm_all.jpg" width="600"><br> <em>Figure 1: Example heatmap prediction</em> </p> <p align="center"> <img src="images/landmarks_overlay.png" width="600"><br>
 
 **Citation:**
 ```bibtex
