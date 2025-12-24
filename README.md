@@ -1,6 +1,6 @@
 # Deep-Fish-Landmark-Prediction
 **Description:** A Deep Learning based anatomical landmark prediction application for biomedical and Aquaculture Fish Species.<br>
-**Paper:** DOI: [ECCV 2022 Workshops Paper Link](https://doi.org/10.1234/example.doi](https://doi.org/10.1007/978-3-031-25069-9_31)). <br>
+**Paper:** DOI: [ECCV 2022 Conference Paper Link](https://doi.org/10.1007/978-3-031-25069-9_31)). <br>
 
 **Abstract (short):**
 This paper empirically evaluates deep learning methods for anatomical landmark detection in fish bioimages. It compares heatmap‑based regression against direct regression approaches using several CNN architectures. Experiments on multiple fish imaging datasets show that the heatmap method with exponential functions and a U‑Net architecture performs best. Datasets and code are made available publicly.
