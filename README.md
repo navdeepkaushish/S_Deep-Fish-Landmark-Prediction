@@ -7,7 +7,7 @@ This paper empirically evaluates deep learning methods for anatomical landmark d
 
 **Datasets:**
 
-- Microscopy Images of Zebrafish Lavae (Model fish in biomedcial research):
+- Microscopy Images of Zebrafish Larvae (Model fish in biomedcial research):
 - Microscopy Images of Medaka Fish (Another model fish in Biomedical research)
 - Radiography (X-Rays) Images of Gilthead Seabream (Sparus aurata) (Aquaculture fish species)
 
