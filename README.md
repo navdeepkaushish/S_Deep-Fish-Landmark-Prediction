@@ -19,7 +19,7 @@ This paper empirically evaluates deep learning methods for anatomical landmark d
 **CNN Architectures:**
 - UNet, HRNet, DeepLab (with transfer learning), FCN-8
 
-<p align="center"> <img src="Test_Images/hm_all.jpg" width="600"><br> <em>Figure 1: Example heatmap prediction</em> </p> <p align="center"> <img src="images/landmarks_overlay.png" width="600"><br>
+<p align="center"> <img src="Test_Images/hm_all.jpg" width="600"><br> <em>Figure 1: Example heatmap prediction</em> </p> <br>
 
 **Citation:**
 ```bibtex
